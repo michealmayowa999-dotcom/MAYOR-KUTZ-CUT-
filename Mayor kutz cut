@@ -1,1 +1,209 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAYOR KUTZ CUTZ</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+    }
+
+    header {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #f5c400;
+    }
+
+    header h1 {
+      color: #f5c400;
+      font-size: 30px;
+    }
+
+    header p {
+      margin-top: 8px;
+      color: #ddd;
+    }
+
+    .hero {
+      min-height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.8)),
+                  #222;
+    }
+
+    .hero h2 {
+      font-size: 45px;
+      margin-bottom: 15px;
+    }
+
+    .hero span {
+      color: #f5c400;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #ddd;
+      margin-bottom: 25px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #f5c400;
+      color: #000;
+      padding: 14px 25px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      margin: 5px;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      color: #f5c400;
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 18px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .service {
+      background: #1d1d1d;
+      padding: 25px;
+      border-radius: 12px;
+      border: 1px solid #333;
+    }
+
+    .service h3 {
+      color: #f5c400;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      background: #1a1a1a;
+    }
+
+    .contact p {
+      margin: 12px;
+      font-size: 18px;
+    }
+
+    footer {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+      color: #aaa;
+    }
+
+    footer strong {
+      color: #f5c400;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>MAYOR KUTZ CUTZ</h1>
+    <p>Professional Barbering & Hair Styling</p>
+  </header>
+
+  <div class="hero">
+    <div>
+      <h2>LOOK FRESH.<br><span>STAY FRESH.</span></h2>
+      <p>Premium haircuts and professional grooming.</p>
+
+      <a class="button" href="tel:08154070607">
+        📞 Book a Cut
+      </a>
+
+      <a class="button" href="#services">
+        View Services
+      </a>
+    </div>
+  </div>
+
+  <section id="services">
+    <h2>OUR SERVICES</h2>
+
+    <div class="services">
+
+      <div class="service">
+        <h3>Hair Cut</h3>
+        <p>Haircuts in different styles.</p>
+      </div>
+
+      <div class="service">
+        <h3>Dread Lock</h3>
+        <p>Professional dreadlock styling.</p>
+      </div>
+
+      <div class="service">
+        <h3>Relock</h3>
+        <p>Clean and professional relocking.</p>
+      </div>
+
+      <div class="service">
+        <h3>Dye & Tint</h3>
+        <p>Give your hair a fresh new colour.</p>
+      </div>
+
+      <div class="service">
+        <h3>Rough Coil</h3>
+        <p>Stylish rough coil finishing.</p>
+      </div>
+
+      <div class="service">
+        <h3>Coco Waves</h3>
+        <p>Clean and stylish wave designs.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>BOOK YOUR APPOINTMENT</h2>
+
+    <p>📞 Phone: <strong>08154070607</strong></p>
+
+    <p>🏠 Home service available</p>
+
+    <br>
+
+    <a class="button" href="tel:08154070607">
+      CALL MAYOR KUTZ CUTZ
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2026 <strong>MAYOR KUTZ CUTZ</strong></p>
+    <p>Professional Barbering Services</p>
+  </footer>
+
+</body>
+</html>
